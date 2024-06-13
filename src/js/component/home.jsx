@@ -19,6 +19,10 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+			<Card title={"React"} description={"React es una libreria de Javascript orientada para el FrontEnd"}
+			textButton={"Leer más"} imagen={rigoImage}/>
+			<Card title={"React2"} description={"React es una libreria de Javascript orientada para el FrontEnd2"}
+			textButton={"Leer más2"} imagen={rigoImage}/>
 		</div>
 	);
 };
