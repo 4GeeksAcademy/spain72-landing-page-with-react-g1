@@ -7,6 +7,7 @@ import pug from '../../img/pug.jpg';
 import { Navbar } from "./Navbar.jsx";
 import { Card } from "./Card";
 import { Jumbotron } from "./Jumbotron";
+import { Footer } from "./Footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -32,6 +33,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+			<Footer/>
 		</div>
 	);
 };
