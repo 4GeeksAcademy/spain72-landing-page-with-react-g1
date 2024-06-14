@@ -7,11 +7,12 @@ export const Card = (props) => {
     return (
         <div className="card">
             <div class="col">
-            <img className="card-img-top" src={props.imagen} alt="Card image cap"/>
-                <div className="card-body">
+            <img className="card-img-top w-100 img-fluid" src={props.imagen} alt="Card image cap"/>
+                <div className="card-body d-flex flex-column">
                     <h5 className="card-title">{props.title}</h5>
-                    <p className="card-text">{props.description}</p>
-                    <a href="#" className="btn btn-primary">{props.textButton}</a>
+                    <p className="card-text flex-grow-1">{props.description}</p>
+                    <hr className="my-3"/>
+                    <a href="#" className="btn btn-primary mt-auto">{props.textButton}</a>
                 </div>
 
             </div>
