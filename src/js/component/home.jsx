@@ -18,7 +18,7 @@ const Home = () => {
 				<div className="row my-3 p-2 justify-content-center">
 					<Jumbotron />
 				</div>
-				<div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 p-3 text-center justify-content-center">
+				<div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 text-center justify-content-center">
 					<Card />
 					<Card title={"React"} description={"React es una libreria de Javascript orientada para el FrontEnd"} textButton={"Leer más"} imagen={rigoImage} />
 					<Card title={"El perro más bonito"} description={"Mira que perro más bonito"} textButton={"Leer más2"} imagen={pug} />

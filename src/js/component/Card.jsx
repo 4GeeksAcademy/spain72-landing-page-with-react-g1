@@ -5,8 +5,8 @@ import ImagenDefault from '../../img/Imagen.jpg';
 
 export const Card = (props) => {
     return (
-        <div className="card">
-            <div class="col">
+        <div className="col">
+            <div class="card m-1">
             <img className="card-img-top w-100 img-fluid" src={props.imagen} alt="Card image cap"/>
                 <div className="card-body d-flex flex-column">
                     <h5 className="card-title">{props.title}</h5>
