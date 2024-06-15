@@ -5,7 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import pug from '../../img/pug.jpg';
 //componentes
 import { Navbar } from "./Navbar.jsx";
-import { Card } from "./Card";
+import { Card } from "./Card.jsx";
 import { Jumbotron } from "./Jumbotron";
 import { Footer } from "./Footer.jsx";
 
