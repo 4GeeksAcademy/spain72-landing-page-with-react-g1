@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ImagenDefault from '../../img/Imagen.jpg';
+import imagenDefault from '../../img/Imagen.jpg';
 
 
 export const Card = (props) => {
